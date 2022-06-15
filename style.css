@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #1d4354;
+}
+
+.navbar-nav li a {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.navbar-nav a:hover {
+    font-size: 20px;
+    font-weight: 800;
+    color: #2dcc94;
+}
+
+.navbar .log {
+    padding: 8px 20px;
+    color: #FFF;
+    line-height: 1;
+    background-color: #1d4354;
+}
+
+.navbar .log span {
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.navbar .bell {
+    font-size: 40px;
+    color: #FFF;
+    line-height: 1;
+    border-width: 0;
+    padding: 0;
+    background-color: transparent;
+    margin: 0 10px 0 0;
+}
+
+.active {
+    border-bottom: 3px solid  #2dcc94;
+}
+
+/* MAIN PAGE */
+#text{
+    width:100%;
+    height:200px;
+    resize: none;
+    max-height:40%;
+    font-size:20px;
+     font-family: 'Times New Roman', Times, serif;
+}
+.page{ border: 1px solid gray;
+    padding-bottom:25px;
+    border-radius: 5px;
+}
+.skill{
+    border:none;
+    margin-left:10px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: #2dcc94;
+    color: white;
+}
+.btn-box{
+    display:flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    height:20px;
+}
+.btn-box .btn-item{
+    padding:4px 20px;
+    font-weight: 600;
+}
+.btn-box .btn1{
+    font-size:1vw;
+    color: #2dcc94;
+    border-radius: 20px;
+    border:1px solid rgb(238,238,238);
+    position: absolute;
+    background-color:rgb(238,238,238);
+    top:25%;
+    left:3%;
+}
+.btn-box .btn1:hover{
+    background-color: black;
+    color: white;
+}
+.btn-box .btn2{
+    font-size:1vw;
+    color: #2dcc94;
+    border-radius: 20px;
+    border:1px solid rgb(238,238,238);
+    position: absolute;
+    background-color:rgb(238,238,238);
+    top: 25%;
+    right:15%;
+}
+.btn-box .btn2:hover{
+    background-color: black;
+    color: white;
+}
+.btn-box .btn3{
+    font-size:1vw;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    border:1px solid rgb(238,238,238);
+    background-color:#2dcc94;
+    position: absolute;
+    top: 25%;
+    right:2%;
+    opacity:1;  
+}
+.btn-box .btn3:hover{
+    color: black;
+    opacity: .6;
+}
+
+/* footer */
+.footer-section {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+
+}
+
+.footer-section li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-section li {
+    margin-top: 10px;
+}
